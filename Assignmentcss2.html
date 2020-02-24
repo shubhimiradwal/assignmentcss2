@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	.side-crop
+	{ max-height: 300px; overflow: hidden; }
+
+	#side-crop2 {
+   transform: rotateX(180deg);
+	}
+	.side-crop2{
+	max-height: 300px; overflow-y: hidden;
+	}	
+	.new2 {
+  	width:500px;
+  	height:300px;
+  	object-fit:cover;
+  	align-items: center;
+  	margin-left: 350px;
+	}
+	body{
+	margin-left: 33px;
+	margin-right: 33px;
+	}
+	</style>
+</head>
+<body>
+<div style="border: 1px solid black;">
+	<p><b>Image 1</b></p>
+	<div class="side-crop">
+	<img src="image3.jpg" alt="pug wrapped in a blanket">
+</div>
+</div>
+</br></br>
+<div style="border: 1px solid black;">
+	<p><b>Image 2</b></p>
+	<div class="side-crop2">
+	<img id="side-crop2"src="image3.jpg" alt="pug wrapped in a blanket">
+</div>
+</div>
+<div>
+<p><b>Image 3</b></p>
+<img class="new2" src="image3.jpg" alt="Paris" width="400" height="300">
+</div>
+</body>
+</html>
